@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border-radius: 2%;
+}
+.m-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 2rem;
+  padding: 1rem 2rem;
+}
+
+/* .container{
+
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: auto auto;
+      
+    border: 1px solid black;
+
+} */
+
+.container1 {
+  border: 1px solid black;
+  background: url(imgaes/lay4.jpeg);
+}
+
+.box-container {
+  height: 100vh;
+}
+
+.box3 {
+  height: calc(100% / 3);
+
+  padding: 10px;
+  background: url(imgaes/lay9.jpeg);
+  background-size: cover;
+}
+.box4 {
+  height: calc(100% / 3);
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+.box5 {
+  height: calc(100% / 3);
+
+  background: url(imgaes/lay9.jpeg);
+  background-size: cover;
+}
+
+.boxa,
+.boxb {
+  height: 100%;
+}
+
+.row1,
+.row2 {
+  height: 40%;
+}
+.row1 {
+  background: url(imgaes/lay3.webp);
+  height: 50%;
+  background-size: cover;
+}
+.row2 {
+  background: url(imgaes/lay4.webp);
+  border: 1px solid black;
+  margin-top: 20px;
+  height: 50%;
+  background-size: cover;
+}
+
+.boxa {
+  background: url(imgaes/lay8.jpeg);
+  background-size: cover;
+}
+
+.boxb {
+  background: url(imgaes/lay7.webp);
+  background-size: cover;
+}
